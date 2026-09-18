@@ -1,2 +1,4 @@
-SELECT * FROM information_schema.tables
-    WHERE table_catalog = 'data_jobs';
+SELECT DISTINCT 
+    job_title_short
+FROM
+    job_postings_fact;
