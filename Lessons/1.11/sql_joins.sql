@@ -10,4 +10,4 @@ FROM
 LEFT JOIN 
     company_dim AS cd
     ON jpf.company_id = cd.company_id
-LIMIT 10;
+LIMIT 20;
